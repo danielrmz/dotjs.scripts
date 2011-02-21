@@ -12,6 +12,7 @@ if(window.jQuery) {
     
     var last = $("span.username").filter(function(arr,i){ return $(i)[0].innerText == user;});
     var len = last.length - 1;
+    // Add previously found messages in the DOM of the list. 
     for(var i = len; i >= len - _limit + 1; i--) {
         try {
             var message = $(last[i]).parent().parent().find(".message-body").html();
@@ -21,7 +22,6 @@ if(window.jQuery) {
             current = _limit - current;
         } catch(err) {}
     }  
-    console.dir(_history);
     
     $("#id-message").keydown(function(){
         var UP = 38;
@@ -55,8 +55,7 @@ if(window.jQuery) {
                 }
                 _history.push(msg.val());
                 current = _history.length;
-                console.log(current);
-            break;
+                break;
         }
     });
 
