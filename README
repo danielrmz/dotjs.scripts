@@ -1,0 +1,16 @@
+Here are my DotJS custom files to add stuff to some domains. 
+
+Domains
+================
+convore.com - added history support. 
+github.com  - in-progress, github chat-like integration with convore.  
+
+Information
+================
+See https://github.com/defunkt/dotjs for more information. 
+
+
+License
+================
+
+MIT License
