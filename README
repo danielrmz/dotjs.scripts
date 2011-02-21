@@ -5,6 +5,11 @@ Domains
 convore.com - added history support. 
 github.com  - in-progress, github chat-like integration with convore.  
 
+Installation
+===============
+1. Install dotjs
+2. git clone git://github.com/danielrmz/dotjs.scripts.git ~/.js
+
 Information
 ================
 See https://github.com/defunkt/dotjs for more information. 
